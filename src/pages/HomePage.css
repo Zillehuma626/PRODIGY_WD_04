@@ -1,0 +1,104 @@
+.home-page {
+  font-family: 'Arial', sans-serif;
+  color: #bbb;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-doughnut {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center
+}
+
+.skills-doughnut h2 {
+  color: #FFD700; /* Yellow color for heading */
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.skill-descriptions {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  gap: 30px; /* Space between items */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  margin-top: 20px;
+  align-items: center;
+}
+
+.skill-item {
+  background-color: #333; /* Dark background */
+  padding: 20px; /* Added padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #bbb; /* Light gray text */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  flex: 1; /* Flex items will grow equally */
+  min-width: 150px; /* Minimum width to avoid collapsing */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.skill-item h3 {
+  color: #FFD700; /* Yellow color for skill names */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.skill-item p {
+  margin-top: 10px;
+  text-align: center; /* Center text inside the container */
+}
+
+.skill-item .icon {
+  font-size: 2rem; /* Size of the icon */
+  margin-bottom: 10px; /* Space between icon and heading */
+}
+.hero-section {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2; /* Ensure text is above the overlay */
+  padding: 20px;
+  border-radius: 8px; /* Optional: adds rounded corners to the background */
+  background-color:none;
+}
+.hero-text h1 {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFC107;
+}
+
+.hero-text p {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #bbb;
+}
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding for better button size */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  color: #fff;
+  background-color: #FFC107;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #FFC107; /* Slightly darker shade on hover */
+}

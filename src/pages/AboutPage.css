@@ -1,0 +1,112 @@
+/* Basic styles for the About Page */
+.about-page {
+  color: #bbb; /* Yellow text color for contrast */
+  background-color: #333; /* Dark background for contrast */
+  padding: 30px;
+}
+/* Styles for the simplified modern introductory section */
+.intro-section {
+  padding: 10px;
+  background-color:tran; /* Dark background for a modern look */
+  color: #fff; /* White text for contrast */
+  text-align: center; /* Center-align text */
+  border-radius: 12px; /* Subtle rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deep shadow for depth */
+}
+
+.intro-section h1 {
+  font-size: 2rem; /* Large font size for impact */
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
+  letter-spacing: 1.5px; /* Slightly increased letter spacing */
+  background: #FFD700; /* Gradient text effect */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-section p {
+  font-size: 1.2rem; /* Slightly smaller, more refined text */
+  line-height: 1.6;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #e0e0e0; /* Light gray text for a softer contrast */
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background: #FFD700; /* Gradient divider */
+  margin: 0px;
+  border-radius: 2px;
+}
+
+  .education-section, .experience-section, .skills-section {
+    margin-top: 40px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #FFD700; /* Yellow for section headings */
+    margin-bottom: 20px;
+    text-align: start;
+   
+  }
+  .education-container {
+    display: flex;
+    flex-direction: row; /* Display items side by side */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px;
+  }
+  
+  .education-item {
+    background-color: #333; /* Dark gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%; /* Adjust width to fit two items side by side */
+  }
+  
+  .education-icon {
+    font-size: 1.5rem; /* Larger icon for visibility */
+    margin-bottom: 10px;
+  }
+  
+  .education-details h3 {
+    font-size: 1.5em;
+    color: #FFD700; /* Yellow color for headings */
+  }
+  
+  .education-details p {
+    font-size: 1rem;
+    color: #bbb; /* Light gray text for descriptions */
+    margin-top: 20px;
+  }
+  
+  
+  .experience-container, .skills-container {
+    display: flex;
+    flex-direction: row; /* Change from column to row */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px;
+  }
+  
+  .experience-item, .skills-item {
+    background-color: #333; /* Dark gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%; /* Adjust width to fit two items side by side */
+  }
+  
+  .experience-item h3, .skills-item h3 {
+    font-size: 1.5rem;
+    color: #FFD700; /* Yellow color for headings */
+  }
+  
+  .experience-item p, .skills-item p {
+    font-size: 1rem;
+    color: #bbb; /* Light gray text for descriptions */
+    margin-top: 20px;
+  }
+  

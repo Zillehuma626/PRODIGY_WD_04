@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up a modern font and base styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #F0F0F0; /* Light Gray background */
+  color: #222222; /* Dark Charcoal text */
+  padding: 0 20px;
+}
+
+/* Center content with a max-width */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333333; /* Charcoal */
+  color: #98FF98; /* Mint Green */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Navbar styles */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333333; /* Charcoal */
+}
+
+nav a {
+  color: #98FF98; /* Mint Green */
+  padding: 14px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #6B8E23; /* Darker Mint Green for hover effect */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333333; /* Charcoal */
+  color: #98FF98; /* Mint Green */
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
